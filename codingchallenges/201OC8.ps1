@@ -1,5 +1,3 @@
-#!/bin/bash
-
 #Script: 201OC8
 #Author: toph
 #Date: 08MAY23
