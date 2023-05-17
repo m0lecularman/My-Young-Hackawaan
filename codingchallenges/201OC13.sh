@@ -3,30 +3,30 @@
 #Script: 201OC13
 #Author: toph
 #Date: 17MAY23
-#Purpose: Create a script that asks a user to type a domain, then displays information about the typed domain
+#Purpose: Create a script that prompts user for a domain, then displays information about that domain
 
 #Start
 
 #Display prompt
-echo "Please enter a domain name:"
+echo "Enter domain name:"
 
 #Read user input
-read a
+read addy
 
 #Pull domain info
 domaininfo(){
 
 #By reading website entered
-whois $a
+whois $addy
 
 #Display extra info about DNS server
-dig $a
+dig $addy
 
 #Look up DNS
-host $a
+host $addy
 
 #Look up specific DNS
-nslookup $a
+nslookup $addy
 }
 #Output to a text file
 domaininfo > whois.txt
