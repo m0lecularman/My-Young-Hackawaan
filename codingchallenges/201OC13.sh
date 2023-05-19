@@ -28,7 +28,10 @@ host $addy
 #Look up specific DNS
 nslookup $addy
 }
+ 
 #Output to a text file
 domaininfo > whois.txt
+
+echo whois.txt
 
 #End
