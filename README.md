@@ -1,6 +1,6 @@
 # My-Young-Hackawaan
 Journey to learn Cybersecurity ops with Savvy Coders
-Do bop boom I'm making edits but did they work?
+
 
 What is this repo all about?
     My exploration of helpful programs and tools, and learning the basics of coding across the main languages
