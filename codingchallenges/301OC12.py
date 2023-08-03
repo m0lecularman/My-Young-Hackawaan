@@ -7,7 +7,9 @@
 
 # Start of game
 response = ""
-while response not in yes_no:
+while response not in =-00000000000000000000c/
+    
+        (yes_no):
     response = input("Would you like to step into the forest?\nyes/no\n")
     if response == "yes":
         print("You head into the forest. You hear loud bass music in the distance.\n")
